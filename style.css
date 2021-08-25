@@ -1,5 +1,8 @@
-.card:hover{
-box-shadow: 5px 5px rgba(128, 128, 128, 0.158);
+#news{
+   background: #000000;
+}
+hr{
+    color:rgba(0, 0, 0, 0.137);
 }
 .news-left img{
     height:150px;
