@@ -90,7 +90,8 @@ button:hover{
     }
     .achieve-left-img img{
         height:350px;
-    box-sizing: border-box;
+    object-fit: cover;
+    object-position: center;
     transition: all 1s ease-in-out;
         }
 .achieve-right-content .card{
@@ -107,14 +108,18 @@ height:180px;
 .achieve-right-content .card img{
     height:100px;
     }
+    .cards{
+object-fit: cover;
+box-sizing: border-box;
+    }
     .video-img img{
      object-fit: cover;
-     height: 180px;
+
 
     }
     .video-img{
         position: relative;
-        height: 180px;
+       
     }
     .video-img .play{
         position:absolute;
@@ -187,8 +192,5 @@ color:#8D0801;
           
           
 }
-@media(max-width:400px){
 
-    
-}
     
