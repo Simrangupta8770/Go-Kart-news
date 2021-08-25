@@ -34,7 +34,7 @@ transition: all 1s ease-in-out;
     display: none;
     width:100%;
     height:100%;
-    background-color: #bf06032a;
+    background-color: #bf06039a;
     color: white;
     transition: all 0.5s ease-in-out;
    padding:100px;
@@ -47,11 +47,16 @@ transition: all 1s ease-in-out;
     display: none;
     width:100%;
     height:100%;
-    background-color: #bf06032a;
+    background-color: #bf06039a;
     color: white;
     transition: all 0.5s ease-in-out;
    padding:100px;
    text-align: center;
+}
+.news-middle-img button,
+.achieve-left-img  button{
+    color:white !important;
+    border-color: white !important;
 }
 
 .news-middle-img:hover .content{
@@ -107,6 +112,8 @@ height:180px;
 
 .achieve-right-content .card img{
     height:100px;
+    object-fit: cover;
+    object-position: center;
     }
     .cards{
 object-fit: cover;
@@ -134,18 +141,33 @@ box-sizing: border-box;
 
     .icon{
         position:absolute;
-        top:80px;
-        left:120px;
-        
+        top:40%;
+        left:45%;
+        cursor: pointer;
     }
     .videos a{
 color:#BF0603;
 text-decoration: none;
     }
- .videos   a:hover{
+ .videos a:hover{
 color:#8D0801;
     }
-  
+    .gradient-underline {
+        padding-bottom: 4px;
+        position: relative;
+        text-decoration: none;
+    }
+    
+    .gradient-underline::after {
+        background: #f00;
+        background: linear-gradient(to right,  #BF0603 1%, transparent 100%);  
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3px;
+        width: 20%;
+     }
 @media(max-width:970px){
     .achieve-right-content .card img{
         height:180px;
@@ -164,6 +186,7 @@ color:#8D0801;
                 
             }
           
+          
 }
 @media(max-width:768px){
     .news-left img{
@@ -181,8 +204,8 @@ color:#8D0801;
             }
             .icon{
              
-                top:45%;
-                left:45%;
+                top:40%;
+                left:43%;
         
             }
             .icon svg{
