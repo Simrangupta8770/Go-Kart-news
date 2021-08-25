@@ -1,0 +1,150 @@
+.card:hover{
+box-shadow: 5px 5px rgba(128, 128, 128, 0.158);
+}
+.news-left img{
+    height:150px;
+}
+.news-middle-img img{
+height:380px;
+object-fit: cover;
+transition: all 1s ease-in-out;
+}
+.news-middle-img{
+    position: relative;
+    overflow: hidden;
+}
+.achieve-left-img{
+    position: relative;
+    overflow: hidden;
+}
+.news-middle-img .content{
+    position: absolute;
+    top: 0;
+    left:0;
+    display: none;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+    transition: all 0.5s ease-in-out;
+   padding:100px;
+   text-align: center;
+}
+.achieve-left-img .content{
+    position: absolute;
+    top: 0;
+    left:0;
+    display: none;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+    transition: all 0.5s ease-in-out;
+   padding:100px;
+   text-align: center;
+}
+
+.news-middle-img:hover .content{
+   display: block;
+
+}
+.achieve-left-img:hover .content{
+    display: block;
+ 
+ }
+.news-middle-img:hover img{
+transform: scale(1.3);
+
+ }
+ .achieve-left-img:hover img{
+    transform: scale(1.3);
+    
+     }
+.news-right a{
+text-decoration: none;
+color:black;
+}
+.achieve-left-content .card{
+    height:150px;
+    }
+    .achieve-left-img img{
+        height:350px;
+    box-sizing: border-box;
+    transition: all 1s ease-in-out;
+        }
+.achieve-right-content .card{
+height:180px;
+}
+.achieve-right-content  a{
+    text-decoration: none;
+    color:black;
+}
+
+.achieve-right-content .card img{
+    height:100px;
+    }
+    .video-img img{
+     object-fit: cover;
+    }
+    .video-img{
+        position: relative;
+
+    }
+    .icon{
+        position:absolute;
+        top:80px;
+        left:120px;
+        
+    }
+  
+@media(max-width:970px){
+    .achieve-right-content .card img{
+        height:180px;
+        }
+        .achieve-right-content .card{
+            height:250px;
+            }
+           
+            .content{
+                display: none;
+            }
+            .icon{
+                position:absolute;
+                top:90px;
+                left:150px;
+                
+            }
+          
+}
+@media(max-width:768px){
+    .news-left img{
+        height:200px;
+    }
+    .news-middle-img img{
+    height:350px;
+   
+    }
+    .achieve-right-content .card img{
+        height:250px;
+        }
+        .achieve-right-content .card{
+            height:320px;
+            }
+            .icon{
+             
+                top:45%;
+                left:40%;
+        
+            }
+            .icon svg{
+               height: 40px;
+               width:40px;
+            }
+          
+          
+}
+@media(max-width:400px){
+
+    
+}
+    
